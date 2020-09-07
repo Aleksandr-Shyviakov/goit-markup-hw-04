@@ -270,6 +270,10 @@ li {
   margin-top: 50px;
 }
 
+.team-item {
+  background-color: var(--background);
+}
+
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -277,6 +281,12 @@ li {
 .team-position {
   font-weight: normal;
   color: var(--text-grey);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--text-grey);
 }
 
 .clients {
@@ -343,6 +353,10 @@ li {
   line-height: 24px;
 
   text-decoration: none;
+}
+
+.join-us {
+  fill: var(--text-white);
 }
 
 /*  PORTFOLIO           */
